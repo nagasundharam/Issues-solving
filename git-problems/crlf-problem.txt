@@ -1,0 +1,40 @@
+problem :
+  
+CRLF = (Carriage return and Line Feed)  -- windows  
+LF = (Line Feed) -- macOs,linux -unix system
+
+
+CRLF stands for Carriage Return (CR) + Line Feed (LF), which are control characters used to mark the end of a line in a text file. Different operating systems use different line endings:
+
+        Windows uses CRLF (\r\n)
+        Linux/macOS use only LF (\n)
+
+
+
+warning: in the working copy of 'frontend/react-task/eslint.config.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/react-task/index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/react-task/package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/react-task/package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/react-task/src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/react-task/src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'frontend/react-task/vite.config.js', LF will be replaced by CRLF the next time Git touches it            what is  crlf and what error it causes and why this error shows
+
+
+
+
+
+
+
+
+solution:
+git config --global core.autocrlf input
+
+you dont wnat to change   --   git config --global core.autocrlf false
+
+
+
+
+
+
+usage:
+when you working with cross platforms it is usable
