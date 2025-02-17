@@ -1,0 +1,13 @@
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/nagasundharam/Full-Stack.git'
+
+
+problem:
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/nagasundharam/Full-Stack.git'
+
+Reason:
+you doesnt commit
+
+solution :
+give a commit message
